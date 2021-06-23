@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.scanner-cam {
+  border: 5px solid red;
+  width: 640px;
+  height: 480px;
+}
+
+.scanner-cam--scanned {
+  border-color: green;
+}
