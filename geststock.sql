@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost:3306
--- Généré le : jeu. 24 juin 2021 à 17:05
+-- Généré le : ven. 25 juin 2021 à 12:45
 -- Version du serveur :  8.0.25-0ubuntu0.20.04.1
 -- Version de PHP : 7.4.3
 
@@ -177,7 +177,7 @@ INSERT INTO `objets` (`id`, `modele`, `description`, `instock`, `quantity`, `bar
 (120, 'ST2030', 'VoIP Phone ST2030', 1, 1, 'CP0823AY44N', 'VoIP Phone', 'Thomson', ''),
 (121, 'AD-RT-ETH/USB-X5', 'DSL Router CXR AD-RT-ETH/USB-X5', 1, 1, '2609-5654-06-CXBG-0013', 'Router', 'CXR', ''),
 (122, 'AD-RT-ETH/USB-X5', 'DSL Router CXR AD-RT-ETH/USB-X5', 1, 1, '2609-5654-06-CXBG-0017', 'Router', 'CXR', ''),
-(123, 'N2K-EXP-RD-2 USB', 'NMEA Network Starter Kit', 1, 1, '181580', 'Mesure', 'Lowrance', ''),
+(123, 'NGT-1-USB', 'Actisense Analyser NMEA avce liaison USB', 1, 1, '181580', 'Mesure', 'Actisense', ''),
 (124, 'ST2030', 'VoIP Phone ST2030', 1, 1, 'CP0823AY44Y', 'VoIP Phone', 'Thomson', 'Cod boite CP0823AY454'),
 (125, 'AIR-LAP1131AG', 'Cisco AIR-LAP1131AG Access Point', 1, 1, 'FCZ1402Q2GH', 'Access Point', 'Cisco', ''),
 (126, 'WUSB600N', 'Wireless-N USB Network Adapter with Dual Band', 1, 1, 'JNW10J942342', 'Network Adapter', 'Cisco', ''),
@@ -188,7 +188,16 @@ INSERT INTO `objets` (`id`, `modele`, `description`, `instock`, `quantity`, `bar
 (131, 'CISCO 871', 'Router Cisco 871', 1, 1, 'FHK125224ME', 'Router', 'Cisco', ''),
 (132, 'CISCO 871', 'Router Cisco 871', 1, 1, 'FHK125224M1', 'Router', 'Cisco', 'Pb connecteur alim'),
 (133, 'CISCO 871', 'Router Cisco 871', 1, 1, 'FHK125224LQ', 'Router', 'Cisco', 'Pb connecteur alim'),
-(134, 'GoPiGo3', 'GoPiGO3 Starter Kit robot', 1, 1, '855390007098-2', 'Robot', 'Dexter Industries', '');
+(134, 'GoPiGo3', 'GoPiGO3 Starter Kit robot', 1, 1, '855390007098-2', 'Robot', 'Dexter Industries', ''),
+(135, 'G05-XSE', 'Simrad navigation swstem G05-XSE', 1, 1, '107080551', 'GPS', 'Simrad', ''),
+(136, 'IDST-N2000', 'Intelligent DST Triducer multisensor', 1, 1, '3670540', 'Sensor', 'Simrad', ''),
+(137, 'IS42', 'Simrad IS42 Digital Display', 1, 1, '107301943', 'Display', 'Simrad', ''),
+(138, 'RF25N', 'Simrad RF25N Rudder Feedback', 1, 1, '14641', 'Sensor', 'Simrad', ''),
+(139, '000-11519-001', 'Transom Speed sensor 000-11519-001', 1, 1, '502230403', 'Sensor', 'Transom', ''),
+(140, 'BMV-700', 'Battery Monitor', 1, 1, 'HQ1539FAVVV', 'Sensor', 'Victron Energy', ''),
+(141, 'GP08', 'LG 8x External DVD rewriter', 1, 1, '004HKSB090318', 'DVD rewriter', 'LG', ''),
+(142, 'Z320', 'logitech Speaker system Z320', 1, 1, '099206016590', 'Speaker', 'Logitech', ''),
+(143, 'M1011', 'Axis Network camera M1011', 1, 1, '00408CA7C0BE', 'Camera', 'Axis', '');
 
 --
 -- Index pour les tables déchargées
@@ -223,7 +232,7 @@ ALTER TABLE `membres`
 -- AUTO_INCREMENT pour la table `objets`
 --
 ALTER TABLE `objets`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=135;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
